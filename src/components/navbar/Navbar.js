@@ -1,22 +1,36 @@
 import React from 'react'
 import './navbar.css'
 import logo from '../../assets/images/logo-udemy.svg'
-
+import { useState } from 'react';
 import { GoSearch } from "react-icons/go";
 import { BsGlobe } from "react-icons/bs";
 import { AiOutlineShoppingCart} from "react-icons/ai";
+// import { useHistory } from 'react-router-dom';
 
+function Navbar() { 
+  const [search,setSearch] = useState('')
+  // const history = useHistory();
 
-function Navbar() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  
+    if (search === "") {
+      return;
+    }
+  
+    // Redirect to the other React folder
+    window.location.href = "http://localhost:3000/src/components/searchPage/SearchPage.js";
+  };
+  
   return (
     <div className='navbar flex'>
       <img src={logo} alt='logo' className='logo'/>
         <div>Categories</div>
         <div className='search flex'>
         <GoSearch />
-            <form className='input-form flex'>
+            <form className='input-form flex' onSubmit={handleSubmit}>
             
-            <input type="text" id="fname" name="fname" placeholder="search for anything" />
+            <input type="text" id="fname" name="fname" placeholder="search for anything" onChange={(e)=>setSearch(e.target.value)}/>
             </form>
         </div>
         <div>Udemy Buisness</div>

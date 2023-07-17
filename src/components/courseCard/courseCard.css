@@ -1,0 +1,50 @@
+.courseCard{
+    margin-top: 5px;
+    gap:15px;
+    padding: 10px;
+}
+.courseCard__createdby{
+    margin-top:5px;
+    color: #6a6f73;
+}
+.courseCard h3{
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+.courseCard img{
+    /* height: 75%;
+    width:80%; */
+}
+
+.courseCard .info-area{
+    gap:3px;
+    flex: 1;
+}
+.courseCard .info-area>p{
+    width:70%;
+}
+.courseCard_stars{
+    margin-top:5px;
+    gap:3px;
+    font-size: .8rem;
+    color:#e59819;
+    align-items: center;
+}
+.courseCard img.courseCard__star{
+    width:.8rem;
+    height: .8rem;
+}
+
+.courseCard__hours{
+    gap:10px;
+    color: #6a6f73;
+    align-items: center;
+}
+.course-prices .cut{
+    position: relative;
+    left:10%;
+    text-decoration: line-through;
+}
