@@ -17,7 +17,7 @@ const courseData = [
   {
     id: 2,
     src: 'https://img-c.udemycdn.com/course/240x135/4471614_361e_5.jpg',
-    heading: "The Complete Guide 2023 (incl. React Router & Redux)",
+    heading: "The Ultimate React Course 2023",
     text: "Dive in and learn <strong>React</strong>.js from scratch! Learn <strong>React</strong>, Hooks, Redux, <strong>React</strong> Router, Next.js, Best Practices and way more!",
     Rating: 4.8,
     hours: 67,
@@ -27,7 +27,7 @@ const courseData = [
     Currentprice: 449,
     Originalprice: 3199,
     CreatedBy: "Maximilian Schwarzmüller",
-    
+
   },
 
   {

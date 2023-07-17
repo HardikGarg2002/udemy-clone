@@ -11,7 +11,7 @@
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: -.02rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-bottom: 0.4rem;
 }
 .courseCard img{
@@ -43,8 +43,18 @@
     color: #6a6f73;
     align-items: center;
 }
+.course-prices{
+    /* margin-right: 0; */
+    /* position: relative;
+    right:0; */
+    /* display: flex-end; */
+}
+.course-prices h2{
+    font-size: .8rem;
+    font-weight: 600;
+}
 .course-prices .cut{
     position: relative;
-    left:10%;
+    /* left:10%; */
     text-decoration: line-through;
 }

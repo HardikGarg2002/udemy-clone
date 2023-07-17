@@ -9,3 +9,8 @@
 h1.results{
     margin-top:4vh;
 }
+#sortSelect{
+    padding: 10px 12px;
+    position: relative;
+    left:50%;
+}

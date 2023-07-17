@@ -1,6 +1,6 @@
 import React from 'react'
 import './selection.css'
-function Courses() {
+function Selection() {
   return (
     <div className='courses section'>
       <h1>A broad selection of courses</h1>
@@ -18,4 +18,4 @@ function Courses() {
   )
 }
 
-export default Courses
+export default Selection
